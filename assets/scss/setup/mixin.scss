@@ -1,0 +1,24 @@
+@mixin appearance ($style) {
+    -webkit-appearance:     $style;
+    -moz-appearance:        $style;
+    -ms-appearance:         $style;
+    -o-appearance:          $style;
+    appearance:             $style;
+  }
+  
+  @mixin transition($duracion) {  
+      -webkit-transition: all $duracion ease-in-out;
+      -moz-transition: all $duracion ease-in-out;
+      -ms-transition: all $duracion ease-in-out;
+      -o-transition: all $duracion ease-in-out;
+      transition: all $duracion ease-in-out;   
+   }
+
+
+@mixin text-box($mleft,$mtop,$mbot,$order){
+
+    margin-left: $mleft;
+    margin-top: $mtop;
+    margin-bottom: $mbot;
+    order:$order;
+} 
