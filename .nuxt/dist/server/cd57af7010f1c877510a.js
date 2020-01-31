@@ -1,0 +1,1 @@
+exports.ids=[1],exports.modules={39:function(t,e,r){"use strict";r.r(e);var l={layout:"basetemplate"},o=r(1),component=Object(o.a)(l,(function(){var t=this.$createElement;return(this._self._c||t)("div",[this._ssrNode("<h1>about</h1>")])}),[],!1,null,null,"2308f2b9");e.default=component.exports}};

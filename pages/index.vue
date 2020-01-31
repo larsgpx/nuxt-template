@@ -1,6 +1,8 @@
 <template>
     <div>    
-        <carousel tipoCarousel="normal" title="Titulo" subtitle="subtitulo" Bannerimg="https://i.picsum.photos/id/229/1600/600.jpg"></carousel>
+        <keep-alive>
+            <carousel tipoCarousel="normal" title="Titulo" subtitle="subtitulo" Bannerimg="https://i.picsum.photos/id/229/1600/600.jpg"></carousel>
+        </keep-alive>
         <div class="container">
             <p>index</p>        
         </div>

@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nuxt",
+    "dev": "nuxt",    
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "pm2 start npm –name larryG — start"
   },
-  "author": "",
+  "author": "Larry G",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
@@ -19,8 +20,21 @@
     "nuxt": "^2.11.0",
     "vue-router": "^3.1.5"
   },
+  "config": {
+    "nuxt": {
+        "host": "0.0.0.0",
+        "port": "49001"
+      }
+  },
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.1.2",
     "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "webpack": "^4.41.5"
   }
