@@ -14,7 +14,7 @@
   "author": "Larry G",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jquery": "^3.4.1",
     "materialize-css": "^1.0.0-rc.2",
     "nuxt": "^2.11.0",
