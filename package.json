@@ -17,7 +17,7 @@
     "axios": "^0.19.2",
     "jquery": "^3.4.1",
     "materialize-css": "^1.0.0-rc.2",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.15.8",
     "vue-router": "^3.1.5"
   },
   "config": {
